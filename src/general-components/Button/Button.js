@@ -24,12 +24,12 @@ export const Button = styled.button.attrs({
 
   &.primary {
     background-color: ${colors.indigo};
-    colors: ${colors.white};
+    color: ${colors.white};
   }
 
   &.secondary {
     background-color: ${colors.orange};
-    colors: ${colors.white};
+    color: ${colors.white};
   }
 `
 
