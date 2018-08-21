@@ -3,8 +3,7 @@ import cn from 'classnames'
 
 import {
 	colors,
-	paddings,
-	margins
+	paddings
 } from '../../constants'
 
 const Div = styled.div.attrs({
