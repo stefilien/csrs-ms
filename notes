@@ -15,6 +15,6 @@ jest
 
 buttons
 tables
-headings
+headings - style component (primary and secondary fonts for 5 headings)
 grid
 panels
