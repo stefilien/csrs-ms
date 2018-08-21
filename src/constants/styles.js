@@ -1,7 +1,7 @@
 export const colors = {
   indigo: '#2296f3',
   orange: '#ff9800',
-  white: '#fdfdfd',
+  white: '#ffffff',
   black: '#222222',
   silver: '#bfbfbf'
 }
