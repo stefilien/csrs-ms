@@ -1,7 +1,8 @@
 import React from 'react'
 
 import {
-	Button
+	Button,
+	Panel
 } from '../../general-components'
 import Brownies from '../../components/Brownies'
 
@@ -26,6 +27,9 @@ class Home extends React.Component {
 		        <Button secondary>
 		        	A Secondary Button
 		        </Button>
+		        <Panel>
+		        	asdfjlaksdjf
+		        </Panel>
 	        </div>
 		)
 	}
