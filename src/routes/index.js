@@ -1,8 +1,10 @@
 import React from 'react'
-import {Router, Route} from 'react-router'
+import {Router, Route, Switch} from 'react-router'
 import createBrowserHistory from 'history/createBrowserHistory'
 
-import Home from './Home'
+import {Navbar} from '../general-components'
+
+import Layout from './Layout'
 
 import './index.css'
 
@@ -13,7 +15,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <Router history={history}>
-          <Route exact path="/" component={Home} />
+        	<div>
+          	<Navbar/>
+            <Layout />
+        	</div>
         </Router>
       </div>
     )
