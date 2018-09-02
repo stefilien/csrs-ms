@@ -2,11 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import cn from 'classnames'
 import Button from '../Button'
-import {
-	colors,
-	paddings,
-	margins
-} from '../../constants'
+import {colors} from '../../constants'
 
 const Div = styled.div.attrs({
 	className: cn('navbar')
