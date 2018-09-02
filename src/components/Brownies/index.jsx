@@ -19,6 +19,12 @@ class Brownies extends React.Component {
 					<p>No more brownies</p>
 				}
 
+				<h1>Brownies</h1>
+				<h2>Brownies</h2>
+				<h3>Brownies</h3>
+				<h4>Brownies</h4>
+				<h5>Brownies</h5>
+
 			</div>
 		)
 	}
