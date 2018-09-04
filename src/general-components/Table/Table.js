@@ -28,7 +28,6 @@ export const StyledTable = styled.table.attrs({
       padding: ${paddings.sml};
       background: ${colors.silver};
     }
-    
   }
 `
 
