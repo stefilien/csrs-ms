@@ -10,7 +10,8 @@ import {
 export const Button = styled.button.attrs({
   className: (props) => cn('btn', {
     'primary': props.primary,
-    'secondary': props.secondary
+    'secondary': props.secondary,
+    'active': props.active
   })
 })`
   border-radius: 4px;

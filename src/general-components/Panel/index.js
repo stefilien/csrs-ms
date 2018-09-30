@@ -1,3 +1,3 @@
-import Div from './Panel'
+import Panel from './Panel'
 
-export default Div
+export default Panel
